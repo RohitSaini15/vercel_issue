@@ -1,7 +1,7 @@
 import { GoogleSpreadsheet } from 'google-spreadsheet';
 // Initialize the Google Sheets API
 
-// const doc = new GoogleSpreadsheet(process.env.SPREAD_SHEET_ID);
+const doc = new GoogleSpreadsheet(process.env.SPREAD_SHEET_ID);
 
 // doc.useServiceAccountAuth({
 //     client_email: process.env.CLIENT_EMAIL,
